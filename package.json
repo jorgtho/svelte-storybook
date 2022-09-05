@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "svelte-build": "rollup -c",
+    "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear",
     "storybook": "start-storybook -p 6006",
-    "build": "build-storybook"
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
     "@babel/core": "^7.19.0",
